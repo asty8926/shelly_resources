@@ -30,16 +30,15 @@
 		}, {
 			"name": "How to edit reaction roles",
 			"embed": {
-				"title":"How to edit reaction roless",
-				"description":"**1.** Copy the ID of the message you want to edit! \n> Type `!devmode` or `!id message` in <#456625369974308866> if you need help with that!\n\n**2.** Add/remove your reaction role to the message.\n> `!rr add 4558634369974308866 :emoji: rolename`\n> `!rr remove 4558634369974308866 rolename` roleID or mention works too!\n [How to bulk add reaction roles](https://www.youtube.com/watch?v=58CQzpV01ks)\n\n**3.** Edit the title and description! \n> `!rr edit 4558634369974308866 NewTitle | Your text {roles}` \n`{roles}` will sync the description with the attached reaction roles on the message!\nYou need to separate `Title | Description` with a vertical pipe `|`\nNote that Mentions don't work in Title!\n*You can skip the title by not putting text before the* `|` *character in the command.*",
-				"image":{
-					"url":"https://cdn.discordapp.com/attachments/553036496400285706/820344425203892255/rredit3.gif"
-					 },
-				"color":12088797,
-				"footer":{
-					"icon_url":"https://cdn.discordapp.com/emojis/810807202993405952.gif",
-					  "text":"More users enlighted"
-				}}
+  "title": "How to edit reaction roles",
+  "description": "**1.** Copy the ID of the message you want to edit! \n> Type `!devmode` or `!id message` in <#456625369974308866> if you need help with that!\n\n**2.** Add/remove your reaction role to the message.\n> `!rr add 4558634369974308866 :emoji: rolename`\n> `!rr remove 4558634369974308866 rolename` roleID or mention works too!\n [How to bulk add reaction roles](https://www.youtube.com/watch?v=58CQzpV01ks)\n\n**3.** Edit the title and description! \n> `!rr edit 4558634369974308866 NewTitle | Your text {roles}` \n`{roles}` will sync the description with the attached reaction roles on the message!\nYou need to separate `Title | Description` with a vertical pipe `|`\nNote that Mentions don't work in Title!\n*You can skip the title by not putting text before the* `|` *character in the command.*",
+  "color": 12088797,
+  "footer": {
+    "text": "More users enlighted",
+    "icon_url": "https://cdn.discordapp.com/emojis/810807202993405952.gif"
+  },
+  "image": "https://cdn.discordapp.com/attachments/553036496400285706/820344425203892255/rredit3.gif"
+}
 		}]
 	},{
 		"name": "Commands Prefix",
