@@ -775,5 +775,104 @@
 				}
 			}
 		]
+	},{
+		"name": "Automod (Automatic Moderation)",
+		"keywords": [
+			"automod",
+			"auto mod",
+			"bad link",
+			"bad invite",
+			"delete invite",
+			"invites",
+			"bad words",
+			"censor",
+			"spam",
+			"mentionspam",
+			"attachment",
+			"threshold",
+			"scary",
+			"scary file",
+			"punishment",
+			"punish after"
+		],
+		"category": {
+			"name": "Automod",
+			"url": "https://docs.carl.gg/moderation/automod/"
+		},
+		"resources": [
+			{
+				"name": "Bad Links",
+				"embed": {
+					"color":7506394,
+					"type":"rich",
+					"description":"Automod rules only apply in channels Carl-bot can see that are not on the \"Whitelisted Channels\" list. The server Owner, server Administrators, and any users with __Manage Server__ permissions will be immune to Carl-bot's automod. Automod is best configured on the [Dashboard](https:\/\/carl.gg\/).\n\n__**Bad Links**__\nThis setting determines how Carl-bot reacts to URLs users send in chat. It has 3 modes: \n> **Blacklist** maintains a list of domains and any time a user posts a link matching one of those domains Carl-bot will enact the specified punishments.\n> **Whitelist** maintains a list of domains and any time a user posts a link that doesn't match one of the listed domains Carl-bot will enact the specified punishments.\n> **No Roles** is similar to whitelist. It maintains a list of domains and any time a user that does not have any roles posts a link that doesn't match one of the listed domains Carl-bot will enact the specified punishments.\n\nThe \"Punish After\" rate must be set to at least 1+ link(s) in 1+ second(s) for this setting to be active.",
+					"url":"https:\/\/docs.carl.gg\/moderation\/automod\/",
+					"title":"Carl-bot's Automod Rules:"
+					}
+			}, {
+            "name": "Bad Invites",
+            "embed": {
+				"color":7506394,
+				"type":"rich",
+				"description":"Automod rules only apply in channels Carl-bot can see that are not on the \"Whitelisted Channels\" list. The server Owner, server Administrators, and any users with __Manage Server__ permissions will be immune to Carl-bot's automod. Automod is best configured on the [Dashboard](https:\/\/carl.gg\/).\n\n__**Bad Invites**__\nThis setting determines how Carl-bot reacts to Discord Server Invites users send in chat. It does not apply to Vanity URLs. It has 3 modes: \n> **Blacklist** maintains a list of server IDs and any time a user posts an invite leading to one of those servers Carl-bot will enact the specified punishments.\n> **Whitelist** maintains a list of server IDs, and any time a user posts an invite that doesn't lead to one of those servers, Carl-bot will enact the specified punishments.\n> **No Roles** is similar to whitelist. It maintains a list of server IDs, and any time a user that does not have any roles posts an invite that doesn't lead to one of those servers Carl-bot will enact the specified punishments.\n\nThe \"Punish After\" rate must be set to at least 1+ invite(s) in 1+ second(s) for this setting to be active.",
+				"url":"https:\/\/docs.carl.gg\/moderation\/automod\/",
+				"title":"Carl-bot's Automod Rules:"
+				}
+			},  {
+            "name": "Bad words",
+            "embed": {
+				"color":7506394,
+				"type":"rich",
+				"description":"Automod rules only apply in channels Carl-bot can see that are not on the \"Whitelisted Channels\" list. The server Owner, server Administrators, and any users with __Manage Server__ permissions will be immune to Carl-bot's automod. Automod is best configured on the [Dashboard](https:\/\/carl.gg\/).\n\n__**Bad Words**__\nThis setting determines how Carl-bot reacts to specific words within messages users send in chat. When a word on the Bad Words list is sent in a message, Carl-bot will enact the specified punishments. Detection is case insensitive, ignores punctuation, and looks for substrings. This means if \"ass\" is added to the list of Bad Words, a user saying, \"I **ass**ume this means you want coffee\" will trigger the Bad Words automod setting.",
+				"url":"https:\/\/docs.carl.gg\/moderation\/automod\/",
+				"title":"Carl-bot's Automod Rules:"
+				}
+			},   {
+            "name": "Spam",
+            "embed": {
+				"color":7506394,
+				"type":"rich",
+				"description":"Automod rules only apply in channels Carl-bot can see that are not on the \"Whitelisted Channels\" list. The server Owner, server Administrators, and any users with __Manage Server__ permissions will be immune to Carl-bot's automod. Automod is best configured on the [Dashboard](https:\/\/carl.gg\/).\n\n__**Spam**__\nThis setting determines how Carl-bot reacts to the frequency with which a user sends messages. If a user sends messages more frequently than the rate set, Carl-bot will enact the specified punishments.\n\nThe \"Punish After\" rate must be set to at least 1+ message(s) in 1+ second(s) for this setting to be active.",
+				"url":"https:\/\/docs.carl.gg\/moderation\/automod\/",
+				"title":"Carl-bot's Automod Rules:"
+				}
+			},  {
+            "name": "Mentionspam",
+            "embed": {
+				"color":7506394,
+				"type":"rich",
+				"description":"Automod rules only apply in channels Carl-bot can see that are not on the \"Whitelisted Channels\" list. The server Owner, server Administrators, and any users with __Manage Server__ permissions will be immune to Carl-bot's automod. Automod is best configured on the [Dashboard](https:\/\/carl.gg\/).\n\n__**Mentionspam**__\nThis setting determines how Carl-bot reacts to the frequency with which a user mentions other users or roles. If a user mentions other users or roles more frequently than the rate set, Carl-bot will enact the specified punishments. Multiple mentions of the same user or role inside a singular message will only be counted as one mention.\n\nThe \"Punish After\" rate must be set to at least 1+ mention(s) in 1+ second(s) for this setting to be active.",
+				"url":"https:\/\/docs.carl.gg\/moderation\/automod\/",
+				"title":"Carl-bot's Automod Rules:"
+				}
+			},   {
+            "name": "Attachment(s) spam",
+            "embed": {
+				"color":7506394,
+				"type":"rich",
+				"description":"Automod rules only apply in channels Carl-bot can see that are not on the \"Whitelisted Channels\" list. The server Owner, server Administrators, and any users with __Manage Server__ permissions will be immune to Carl-bot's automod. Automod is best configured on the [Dashboard](https:\/\/carl.gg\/).\n\n__**Attachmentspam**__\nThis setting determines how Carl-bot reacts to the frequency with which a user sends attachments through Discord. If a user attaches images or files more frequently than the rate set, Carl-bot will enact the specified punishments.\n\nThe \"Punish After\" rate must be set to at least 1+ file(s) in 1+ second(s) for this setting to be active.",
+				"url":"https:\/\/docs.carl.gg\/moderation\/automod\/",
+				"title":"Carl-bot's Automod Rules:"
+				}
+			},  {
+            "name": "Warn threshold",
+            "embed": {
+				"color":7506394,
+				"type":"rich",
+				"description":"Automod rules only apply in channels Carl-bot can see that are not on the \"Whitelisted Channels\" list. The server Owner, server Administrators, and any users with __Manage Server__ permissions will be immune to Carl-bot's automod. Automod is best configured on the [Dashboard](https:\/\/carl.gg\/).\n\n__**Warn Threshold**__\nThis setting determines how Carl-bot reacts when a user receives a new warning and their new total number of warnings exceeds a set limit. Only one limit can be set. This setting has limited punishment options. Unless a user's warnings are reset or reduced manually, this punishment will trigger each time a user receives a new warning while their total number of warnings is above the limit. This setting is turned off when the threshold is set to 0.",
+				"url":"https:\/\/docs.carl.gg\/moderation\/automod\/",
+				"title":"Carl-bot's Automod Rules:"
+				}
+			},  {
+            "name": "Delete scary files",
+            "embed": {
+				"color":7506394,
+				"type":"rich",
+				"description":"Automod rules only apply in channels Carl-bot can see that are not on the \"Whitelisted Channels\" list. The server Owner, server Administrators, and any users with __Manage Server__ permissions will be immune to Carl-bot's automod. Automod is best configured on the [Dashboard](https:\/\/carl.gg\/).\n\n__**Delete Scary Files**__\nThis setting toggles between deleting certain files users upload and not deleting any files. \"Safe\" file formats include `png`, `jpg`, `jpeg`, `webm`, `mp4`, `gif`, `bmp`, `pdf`, `txt`, `tif`, `svg`, `webp`, `mp3`, `flac`, `wav`.",
+				"url":"https:\/\/docs.carl.gg\/moderation\/automod\/",
+				"title":"Carl-bot's Automod Rules:"
+				}
+			}
+		]
 	}
 ]
