@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Reaction roles",
-		"keywords": ["reaction role", "reaction roll", "react role", "react roll", "role react", "roll react", "react for role","role menu","roll menu", "edit", "self role", "selfrole"],
+		"keywords": ["reaction role", "reaction roll", "react role", "react roll", "role react", "roll react", "react for role","role menu","roll menu", "edit", "self role", "selfrole","swap"],
 		"category": {
 			"name": "Reaction roles",
 			"url": "https://docs.carl.gg/roles/reaction-roles/"
