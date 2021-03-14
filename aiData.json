@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Reaction roles",
-		"keywords": ["reaction role", "reaction roll", "react role", "react roll", "role react", "roll react", "react for role","role menu","roll menu", "edit", "self role", "selfrole"],
+		"keywords": ["reaction role", "reaction roll", "react role", "react roll", "role react", "roll react", "react for role","role menu","roll menu", "edit", "self role", "selfrole","swap"],
 		"category": {
 			"name": "Reaction roles",
 			"url": "https://docs.carl.gg/roles/reaction-roles/"
@@ -35,11 +35,14 @@
                                   "color": 12088797,
                                   "footer": {
                                               "text": "More users enlightened",
-                                              "icon_url": "https:\/\/cdn.discordapp.com\/emojis/810807202993405952.gif"
+                                              "icon_url": "https://cdn.discordapp.com/emojis/810807202993405952.gif"
                                              },
-                                  "image": "https:\/\/i.imgur.com\/ci7tHpJ.gif"
+                                  "image": "https://cdn.discordapp.com/attachments/553036496400285706/820344425203892255/rredit3.gif"
                                   }
-		}]
+		},   {
+            "name": "Swap Setup - Add and remove role(s) on the same reaction role",
+            "embed": {"title":"Swap Setup - Add and remove role(s) on the same reaction role","description":"`1.` Make a reaction role message with the two roles you want swapped.\n`2.` Mark the message as unique with `!rr unique msg_id`\n`3.` Manually remove the reaction that assigns the role you want removed.\n\nMake sure you have the **Add reactions** permission __disabled__ in the channel, as `!rr channel` creates a channel with these overwrites built in.\n**[:arrow_forward: Video Guide :clapper:](https://www.youtube.com/watch?v=fRNKwGLKVrg)** ","color":2105893}
+        }]
 	},{
 		"name": "Commands Prefix",
 		"keywords": ["prefix", "symbol"],
