@@ -123,35 +123,6 @@
 			}
 		]
 	},{
-		"name": "Drama Channel **(Premium only)**",
-		"keywords": [
-			"drama"
-		],
-		"category": {
-			"name": "Automod",
-			"url": "https://docs.carl.gg/moderation/automod/"
-		},
-		"resources": [
-			{
-				"name": "Drama Feature (defer)",
-				"embed": {
-					"image":{
-						"url":"https:\/\/i.imgur.com\/hQjbM4G.png",
-						"proxy_url":"https:\/\/images-ext-2.discordapp.net\/external\/6xIQADGNhqTmx0GtC68-ZwXPWeMP27I0tWXqJ_2Rgms\/https\/i.imgur.com\/hQjbM4G.png",
-						"width":1200,
-						"height":324
-					},
-					"author":{
-						"name":"Automod feature (premium only)",
-						"url":"https:\/\/docs.carl.gg\/moderation\/automod\/"
-					},
-					"color":5198940,
-					"type":"rich",
-					"description":"When you have your automod settings to \"defer\", it will send the offending message to the drama channel where you can decide what the punishment suitable is through the use of reactions. This channel should obviously not be made public."
-				}
-			}
-		]
-	},{
 		"name": "Retrieving and using IDs",
 		"keywords": [
 			"role id",
@@ -803,7 +774,8 @@
 			"scary",
 			"scary file",
 			"punishment",
-			"punish after"
+			"punish after",
+			"drama"
 		],
 		"category": {
 			"name": "Automod",
@@ -881,6 +853,23 @@
 				"description":"Automod rules only apply in channels Carl-bot can see that are not on the \"Whitelisted Channels\" list. The server Owner, server Administrators, and any users with __Manage Server__ permissions will be immune to Carl-bot's automod. Automod is best configured on the [Dashboard](https:\/\/carl.gg\/).\n\n__**Delete Scary Files**__\nThis setting toggles between deleting certain files users upload and not deleting any files. \"Safe\" file formats include `png`, `jpg`, `jpeg`, `webm`, `mp4`, `gif`, `bmp`, `pdf`, `txt`, `tif`, `svg`, `webp`, `mp3`, `flac`, `wav`.",
 				"url":"https:\/\/docs.carl.gg\/moderation\/automod\/",
 				"title":"Carl-bot's Automod Rules:"
+				}
+			},{
+				"name": "Drama Feature (defer) **(Premium only)**",
+				"embed": {
+					"image":{
+						"url":"https:\/\/i.imgur.com\/hQjbM4G.png",
+						"proxy_url":"https:\/\/images-ext-2.discordapp.net\/external\/6xIQADGNhqTmx0GtC68-ZwXPWeMP27I0tWXqJ_2Rgms\/https\/i.imgur.com\/hQjbM4G.png",
+						"width":1200,
+						"height":324
+					},
+					"author":{
+						"name":"Automod feature (premium only)",
+						"url":"https:\/\/docs.carl.gg\/moderation\/automod\/"
+					},
+					"color":5198940,
+					"type":"rich",
+					"description":"When you have your automod settings to \"defer\", it will send the offending message to the drama channel where you can decide what the punishment suitable is through the use of reactions. This channel should obviously not be made public."
 				}
 			}
 		]
