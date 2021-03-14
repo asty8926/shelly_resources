@@ -46,7 +46,10 @@
     "description":"**1.** Copy the ID of the message you want to edit! \n> Type `!devmode` or `!id message` in <#456625369974308866> if you need help with that!\n\n**2.** Add\/remove your reaction role to the message.\n> `!rr add 4558634369974308866 :emoji: rolename`\n> `!rr remove 4558634369974308866 rolename` roleID or mention works too!\n [How to bulk add reaction roles](https:\/\/www.youtube.com\/watch?v=58CQzpV01ks)\n\n**3.** Edit the title and description! \n> `!rr edit 4558634369974308866 NewTitle | Your text {roles}` \n`{roles}` will sync the description with the attached reaction roles on the message!\nYou need to separate `Title | Description` with a vertical pipe `|`\nNote that Mentions don't work in Title!\n*You can skip the title by not putting text before the* `|` *character in the command.*",
     "title":"How to edit reaction roles"
 }
-		}]
+	},   {
+            "name": "Swap Setup - Add and remove role(s) on the same reaction role",
+            "embed": {"title":"Swap Setup - Add and remove role(s) on the same reaction role","description":"`1.` Make a reaction role message with the two roles you want swapped.\n`2.` Mark the message as unique with `!rr unique msg_id`\n`3.` Manually remove the reaction that assigns the role you want removed.\n\nMake sure you have the **Add reactions** permission __disabled__ in the channel, as `!rr channel` creates a channel with these overwrites built in.\n**[▶️ Video Guide 🎬](https://www.youtube.com/watch?v=fRNKwGLKVrg)** ","color":2105893}
+        }]
 	},{
 		"name": "Commands Prefix",
 		"keywords": ["prefix", "symbol"],
