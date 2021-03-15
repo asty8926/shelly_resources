@@ -768,6 +768,7 @@
 			"bad words",
 			"censor",
 			"spam",
+			"slowmode",
 			"mentionspam",
 			"attachment",
 			"threshold",
@@ -810,7 +811,7 @@
 				"title":"Carl-bot's Automod Rules:"
 				}
 			},   {
-            "name": "Spam",
+            "name": "Spam (Custom slowmode)",
             "embed": {
 				"color":7506394,
 				"type":"rich",
