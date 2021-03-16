@@ -676,7 +676,7 @@
 				}
 			},{
 				"name": "Issues with Starboard? Answer these questions!",
-				"embed": {"description":"**Issues with Starboard? Answer these questions!**\n• Have you tried using the dashboard instead?\n• Are you reacting to the message with your own star?\n• What star are you using to react with it?\n• Does the bot have posting permissions in the starboard channel and viewing permissions in the channel the message is originally from?\n• How many stars are being put onto the message that are NOT your own?","color":2105893}
+				"embed": {"description":"**Issues with Starboard? Answer these questions!**\n• Have you tried using the dashboard instead?\n• Are you reacting to the message with your own star?\n• What star are you using to react with it?\n• Does the bot have posting permissions in the starboard channel and viewing permissions in the channel the message is originally from?\n• How many stars are being put onto the message that are NOT your own?","color":16767050}
 			}
 		]
 	},{
