@@ -24,6 +24,7 @@
 		}, {
 			"name": "How to add multiple role/emoji pairs to an existing message",
 			"embed": {
+				"color":4299263,
 				"title": "How to add multiple role/emoji pairs to an existing message",
 				"description": "`!rr addmany` requires you to separate each emoji-role pair with a newline (Shift + Enter), like so ```!rr addmany #reactroles 1238901239812 👼 pure\n💩 fortnite\n😁 league of legends```\nVideo tutorial: https://www.youtube.com/watch?v=58CQzpV01ks"
 			}
@@ -48,7 +49,10 @@
 }
 	},   {
             "name": "Swap Setup - Add and remove role(s) on the same reaction role",
-            "embed": {"title":"Swap Setup - Add and remove role(s) on the same reaction role","description":"`1.` Make a reaction role message with the two roles you want swapped.\n`2.` Mark the message as unique with `!rr unique msg_id`\n`3.` Manually remove the reaction that assigns the role you want removed.\n\nMake sure you have the **Add reactions** permission __disabled__ in the channel, as `!rr channel` creates a channel with these overwrites built in.\n**[▶️ Video Guide 🎬](https://www.youtube.com/watch?v=fRNKwGLKVrg)** ","color":2105893}
+            "embed": {"color":4299263,
+		      "title":"Swap Setup - Add and remove role(s) on the same reaction role",
+		      "description":"`1.` Make a reaction role message with the two roles you want swapped.\n`2.` Mark the message as unique with `!rr unique msg_id`\n`3.` Manually remove the reaction that assigns the role you want removed.\n\nMake sure you have the **Add reactions** permission __disabled__ in the channel, as `!rr channel` creates a channel with these overwrites built in.\n**[▶️ Video Guide 🎬](https://www.youtube.com/watch?v=fRNKwGLKVrg)** "
+		     }
         }]
 	},{
 		"name": "Commands Prefix",
