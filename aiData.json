@@ -166,7 +166,9 @@
 		"keywords": [
 			"embed",
 			"embed rule",
-			"edit embed"
+			"edit embed",
+			"hyperlink",
+			"named link"
 		],
 		"category": {
 			"name": "Embeds",
