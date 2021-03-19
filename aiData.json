@@ -99,7 +99,7 @@
 						},
 						{
 							"name":"__Denying a suggestion__",
-							"value":"The `deny` command denies a suggestion.\n> **Syntax:** `!deny ID reason`\n> **Example:** !deny 6 This is literally impossible due to how discord works",
+							"value":"The `deny` command denies a suggestion.\n> **Syntax:** `!deny ID reason`\n> **Example:** !deny 6 This is literally impossible due to how Discord works",
 							"inline":false
 						},
 						{
