@@ -905,5 +905,46 @@
 				"embed":{"fields":[{"name":"addpremium","value":"Grants Carl-bot premium to the server the command is used in, provided you have not assigned premium to the maximum number of servers your Patreon membership allows. Once added, it allows for music commands and other patron perks to be used in that server.\n`!addpremium`","inline":false},{"name":"listpremium","value":"Lists the server ids you have assigned Carl-bot premium to, and a timestamp of when you did so.\n`!listpremium`","inline":false},{"name":"removepremium [server_id]","value":"Removes Carl-bot premium from the server ID you provide in the invocation. If you do not provide a server ID, it will attempt to remove premium from the server the command is used in.\n`!removepremium 186980582863929345`","inline":false}],"title":"Managing your Carl-bot Premium","color":16345172,"footer":{"text":"Thank you for your support! Use !patronperks in CBH to see what else Carl-bot premium has to offer."}}
 			}
 		]
+},{
+    "name": "Dashboard \"Banned\"",
+    "keywords": [
+        "banned",
+        "website ban",
+        "dashboard",
+        "the owner of this website"
+    ],
+    "category": {
+        "name": "Dashboard",
+        "url": "https://carl.gg/"
+    },
+    "resources": [
+        {
+            "name": "I'm Dashboard banned? What to do?",
+            "embed": {
+                "footer": {
+                    "text": "Sorry for the inconvenience!",
+                    "icon_url": "https://cdn.discordapp.com/icons/186980582863929345/a_142bfab7913a33d06030d6a1afdc1e17.png?size=1024",
+                    "proxy_icon_url": "https://images-ext-1.discordapp.net/external/hLsiQHReUiydT0oiZSny4V1C5B5R4NfPw4gbswho_vY/%3Fsize%3D1024/https/cdn.discordapp.com/icons/186980582863929345/a_142bfab7913a33d06030d6a1afdc1e17.png"
+                },
+                "image": {
+                    "url": "https://cdn.discordapp.com/attachments/465563733981265921/751255878308724786/f0c87af3c0c156514a7c944b472cc399.png",
+                    "proxy_url": "https://media.discordapp.net/attachments/465563733981265921/751255878308724786/f0c87af3c0c156514a7c944b472cc399.png",
+                    "width": 595,
+                    "height": 115
+                },
+                "fields": [
+                    {
+                        "name": "What you can do:",
+                        "value": "We cannot control the rate limiting of dashboard, so asking us to unban you is useless. What you **can**  do is try signing out and back into Discord and/or using a different browser. The bans __time out__, but we have no way of knowing how long it will take for yours to be up. \n\nAll commands are still available and functional in your server, and you can use them to set up or change *most* settings in the server.\n> If you were trying to invite the bot and got hit with this message, having someone else in your server (with proper perms) use the invite link instead can sometimes skip this prompt.",
+                        "inline": false
+                    }
+                ],
+                "color": 5490241,
+                "type": "rich",
+                "description": "You are **not** actually banned from the website.\nThis is a left over from issues the bot was having late last month, and it's still being sorted out.",
+                "title": "I'm Dashboard banned?"
+            }
+        }
+    ]
 }
 ]
