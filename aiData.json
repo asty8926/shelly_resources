@@ -53,6 +53,34 @@
 		      "title":"Swap Setup - Add and remove role(s) on the same reaction role",
 		      "description":"`1.` Make a reaction role message with the two roles you want swapped.\n`2.` Mark the message as unique with `!rr unique msg_id`\n`3.` Manually remove the reaction that assigns the role you want removed.\n\nMake sure you have the **Add reactions** permission __disabled__ in the channel, as `!rr channel` creates a channel with these overwrites built in.\n**[▶️ Video Guide 🎬](https://www.youtube.com/watch?v=fRNKwGLKVrg)** "
 		     }
+        },{
+            "name": "Reaction Roles Problems? Potential Solutions",
+            "embed": {
+                "author": {
+                    "name": "Reaction Role Problems?"
+                },
+                "fields": [
+                    {
+                        "name": "2. Is there a problem with the RR settings?",
+                        "value": "Confirm that there are no extra requirements accidentally added to the reaction role itself, \nbegin with __!rr show__, then __!rr show <messageID>__ - Screenshot this and send here. [Click here for usage](https://i.imgur.com/MLAw5Pb.png)",
+                        "inline": false
+                    },
+                    {
+                        "name": "3. Is there a problem with the emojis?",
+                        "value": "Carl can use generic discord emojis, emojis within the specific server, or emojis in another server which Carl is also a member of. If it's a custom emoji, you may need to enter the exact emoji ID. \n[Click here to see more](https://discord.com/channels/186980582863929345/805888295053295616/809714955099701248)",
+                        "inline": false
+                    },
+                    {
+                        "name": "4. If we're still out of luck",
+                        "value": "Easiest solution may be to re add them with !rr add or !rr addmany \nBugs may occur with the dashboard RRs which is why commands are better for it.",
+                        "inline": false
+                    }
+                ],
+                "color": 5301186,
+                "type": "rich",
+                "description": "By using __!rolediagnose <roleID>__, we'll be able to determine if it's a hierarchy/permissions problem. \nremember, Carl will always respect the hierarchy [Click here for usage](https://i.imgur.com/BB5CR5R.png)",
+                "title": "1. Does Carl have the correct permissions?"
+            }
         }]
 	},{
 		"name": "Commands Prefix",
