@@ -428,7 +428,7 @@
 				"embed": {
 					"color":5198940,
 					"type":"rich",
-					"description":"It follows the hierarchy <:greentick:318044721807360010> > <:redtick:318044813444251649> > <:graytick:475852819296026624> meaning that if a member has 6 overrides affecting them, with 5 of them being explicit denies and one being an explicit allow, it counts as an allow.\nThe order of the overrides does **__not__** matter.\n__Related Videos:__\n[Lengthy Talk on Overrides](https:\/\/www.youtube.com\/watch?v=l_EqSBWuC5E)\n[tl;dr Talk on Overrides](https:\/\/www.youtube.com\/watch?v=u7roBtU6thA)",
+					"description":"It follows the hierarchy <:GreenTick:699124840879226922> > <:RedTick:699124870352732251> > <:GreySlash:699124735208063047> meaning that if a member has 6 overrides affecting them, with 5 of them being explicit denies and one being an explicit allow, it counts as an allow.\nThe order of the overrides does **__not__** matter.\n__Related Videos:__\n[Lengthy Talk on Overrides](https:\/\/www.youtube.com\/watch?v=l_EqSBWuC5E)\n[tl;dr Talk on Overrides](https:\/\/www.youtube.com\/watch?v=u7roBtU6thA)",
 					"title":"Channel overrides are simple!"
 				}
 			},{
