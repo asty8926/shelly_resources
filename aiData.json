@@ -983,5 +983,27 @@
             }
         }
     ]
+},{
+    "name": "You think Carl-bot got hacked",
+    "keywords": [
+        "hacked"
+    ],
+    "category": {
+        "name": "Miscellaneous",
+        "url": ""
+    },
+    "resources": [
+        {
+            "name": "You think Carl-bot is hacked?",
+            "embed": {
+                "title": "**__Carl-bot HAS NOT been hacked.__**",
+                "description": "__One of the following has happened in your server:__\n 1. Someone is using the `!echo` command to have carl-bot repeat what they are saying to annoy you. (Can be applied to multiple channels.)  It is highly suggested you do two things. \n\n> First run the command `!modonly echo`. \n\n> Then check your logs to see who was spamming the echo command. (If you don't have message logs setup, now is a good time to do this.)\n\n2. You have given webhook perms to a role in your server and it is being abused. This would post from an outside source to a specific channel to annoy you. [Webhooks Explained!](https://canary.discord.com/channels/186980582863929345/554783406890680331/735847442490327141)\n\n3. Dashboard Embed Builder is being used by a staff member who has Manage Server perms. \n\n4. Autoresponses (Triggers) have been setup by someone without your knowledge. Make sure to delete any triggers you did not approve.",
+                "author": {
+                    "name": "Sounds like you believe Carl-Bot was Hacked!"
+                },
+                "color": 13632027
+            }
+        }
+    ]
 }
 ]
