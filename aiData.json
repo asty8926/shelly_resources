@@ -14,7 +14,9 @@
          "edit",
          "self role",
          "selfrole",
-         "swap"
+         "swap",
+         "verify",
+         "verification"
       ],
       "category":{
          "name":"Reaction roles",
@@ -35,6 +37,15 @@
                "description":"**Or watch this video:** https://vimeo.com/306692543\n**Or see how to do it in the dashboard here:** <https://www.youtube.com/watch?v=O6bfFwnWCg0>",
                "url":"https://docs.carl.gg/roles/reaction-roles",
                "title":"Click here for the wiki page on reaction roles"
+            }
+         },
+         {
+            "name":"How to setup verification with reaction roles (step by step video)",
+            "embed":{
+               "url":"https://docs.carl.gg/roles/reaction-roles/",
+               "title":"How to setup verification?",
+               "description":"An easy video guide on how to make a verification reaction role [Click here](https://www.youtube.com/watch?v=U3D9GZFlaQE&feature=youtu.be \"how to set-up verification\") :clapper:",
+               "color":5281535
             }
          },
          {
@@ -471,6 +482,15 @@
                ],
                "title":"How to Setup Channel Permissions for Mute and Lockdown:",
                "color":6395367
+            }
+         },
+         {
+            "name":"How to setup Lockdown (step by step video)",
+            "embed":{
+               "url":"https://docs.carl.gg/moderation/moderation/",
+               "title":"How to setup lockdown?",
+               "description":"An easy video guide on how to setup lockdown [Click here](https://www.youtube.com/watch?v=gCIsgzWTlpw&t=1s&feature=youtu.be \"how to set-up lockdown\") :clapper:",
+               "color":5281535
             }
          }
       ]
