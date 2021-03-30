@@ -943,7 +943,7 @@
 			}
 		]
 },{
-    "name": "Dashboard \"Banned\"",
+    "name": "Dashboard Issues",
     "keywords": [
         "banned",
         "website ban",
@@ -981,6 +981,13 @@
                 "description": "You are **not** actually banned from the website.\nThis is a left over from issues the bot was having late last month, and it's still being sorted out.",
                 "title": "I'm Dashboard banned?"
             }
+        },{
+            "name": "I can't see my server on the dashboard!",
+            "embed": {
+                "title":"Missing Dashboard Access",
+                "description":"If you have just added Carl-bot to your server or just given a member access to the dashboard, it can take some time to show up on the servers list of the dashboard. In the meantime, you can use [commands](https://docs.carl.gg/).\n\nThe **only** way to give a member access to the dashboard is by giving them the Manage Server permission.",
+                "color":13632027
+                }
         }
     ]
 },{
