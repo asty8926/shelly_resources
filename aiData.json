@@ -1100,7 +1100,7 @@
             "name":"How to link your Discord account to Patreon",
             "embed":{
                "title":"How to link your Discord account to Patreon.",
-               "description":"**0.** If you have any alt accounts, visit [Discord](https://discordapp.com/) (in a web browser) and make sure you are logged in to the correct account.\n**1.** Go to [Patreon's page for linking apps](https://www.patreon.com/settings/apps) and click the Connect button next to the Discord icon.\n**2.** Click this link to force the update. https://carl.gg/api/v1/oauth/gotopatreon\n**3.** If step 2 didn't work, edit anything at all on your Patreon profile\\*, or wait at least 10 minutes.\n**4.** If the bot has not DM'd you by now, ask for help in <#821098604063752222> or <#821098604063752222>.",
+               "description":"**0.** If you have any alt accounts, visit [Discord](https://discordapp.com/) (in a web browser) and make sure you are logged in to the correct account.\n**1.** Go to [Patreon's page for linking apps](https://www.patreon.com/settings/apps) and click the Connect button next to the Discord icon.\n**2.** Click this link to force the update. https://carl.gg/api/v1/oauth/gotopatreon\n**3.** If step 2 didn't work, edit anything at all on your Patreon profile\\*, or wait at least 10 minutes.\n**4.** If the bot has not DM'd you by now, ask for help in <#522912712955658255> or <#465563733981265921>.",
                "color":16345172,
                "footer":{
                   "text":"*Editing your Patreon profile forces Patreon to update and send your new membership info to Carl-bot"
