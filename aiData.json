@@ -315,6 +315,10 @@
                "description":"Inserting the name and URL in the following format:\n`[Name goes here](URL_goes_here \"mouse hover text goes in quotes\")`\n\n__Example__\n`[Dashboard](https://carl.gg/ \"Most dashing dashboard ever\")` would look like:\n[Dashboard](https://carl.gg/ \"Most dashing dashboard ever\")",
                "title":"In Embed \"Description\" fields, you can create named links by"
             }
+         },
+         {
+            "name":"Embeds not posting in Tags/Triggers/Autofeeds?",
+            "embed": {"title":"Embeds not posting in Tags/Triggers/Autofeeds?","description":"**0.** If not there already, go on the [Dashboard at carl.gg](https://carl.gg/ \"Carl-bot Dashboard\").\n**1.** On the Embed builder in a Tag/Trigger/Autofeed, you see `Advanced`, click on that, then click `Export`.\n**2.** Now go to the **Embeds** tab, you will see a field called \"Raw JSON\" on the right, paste it there and click `Apply`.\n**3.** Now select a channel to send the embed to and click `Post`. See if it shows any error or posts your embed properly.\n**4.** If it’s showing an error, run `!embedrules` in <#456625369974308866>.","color":12439367}
          }
       ]
    },
