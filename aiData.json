@@ -901,7 +901,8 @@
          "welcome",
          "leave",
          "greet",
-         "testgreet"
+         "testgreet",
+         "farewell"
       ],
       "category":{
          "name":"Welcome and leave messages",
