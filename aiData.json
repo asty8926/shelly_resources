@@ -1200,7 +1200,9 @@
    {
       "name":"Carl-bot hacked",
       "keywords":[
-         "hacked"
+         "hacked",
+         "leaked",
+         "token"
       ],
       "category":{
          "name":"Miscellaneous",
@@ -1215,6 +1217,20 @@
                "author":{
                   "name":"Sounds like you believe Carl-Bot was Hacked!"
                },
+               "color":13632027
+            }
+         },
+         {
+            "name":"You think Carl-bot's token was leaked?",
+            "embed":{
+               "image":{
+                  "url":"https://i.imgur.com/u7nwN8L.jpg",
+                  "proxy_url":"https://images-ext-1.discordapp.net/external/DPsduk_M5rR2egHkafkIgFg2WoH3BGny3l5Gi1wSYrs/https/i.imgur.com/u7nwN8L.jpg",
+                  "width":616,
+                  "height":199
+    },
+               "title":"FAKE NEWS CARL-BOT IS FINE",
+               "description":"No, the bot's token has not been leaked. The bot is safe to continue to use.\n\nThe image circulating below is fake and intended to create fear and spread doubt.",
                "color":13632027
             }
          }
